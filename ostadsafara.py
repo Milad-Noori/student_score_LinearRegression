@@ -2056,22 +2056,10 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 43,
+   "execution_count": null,
    "id": "fa570dfb-49fa-43e6-844c-e9bbcbc7c315",
    "metadata": {},
-   "outputs": [
-    {
-     "ename": "ValueError",
-     "evalue": "could not convert string to float: ''",
-     "output_type": "error",
-     "traceback": [
-      "\u001b[1;31m---------------------------------------------------------------------------\u001b[0m",
-      "\u001b[1;31mValueError\u001b[0m                                Traceback (most recent call last)",
-      "Cell \u001b[1;32mIn[43], line 1\u001b[0m\n\u001b[1;32m----> 1\u001b[0m Hours_Studied \u001b[38;5;241m=\u001b[39m\u001b[38;5;28;43mfloat\u001b[39;49m\u001b[43m(\u001b[49m\u001b[38;5;28;43minput\u001b[39;49m\u001b[43m(\u001b[49m\u001b[38;5;124;43m\"\u001b[39;49m\u001b[38;5;124;43mthe Hours Studied :\u001b[39;49m\u001b[38;5;124;43m\"\u001b[39;49m\u001b[43m)\u001b[49m\u001b[43m)\u001b[49m \n\u001b[0;32m      2\u001b[0m Previous_Scores \u001b[38;5;241m=\u001b[39m \u001b[38;5;28mfloat\u001b[39m(\u001b[38;5;28minput\u001b[39m(\u001b[38;5;124m\"\u001b[39m\u001b[38;5;124mthe Previous Scores :\u001b[39m\u001b[38;5;124m\"\u001b[39m))\n\u001b[0;32m      3\u001b[0m Sleep_Hours \u001b[38;5;241m=\u001b[39m\u001b[38;5;28mfloat\u001b[39m(\u001b[38;5;28minput\u001b[39m(\u001b[38;5;124m\"\u001b[39m\u001b[38;5;124mthe Sleep Hours :\u001b[39m\u001b[38;5;124m\"\u001b[39m))\n",
-      "\u001b[1;31mValueError\u001b[0m: could not convert string to float: ''"
-     ]
-    }
-   ],
+   "outputs": [],
    "source": [
     "Hours_Studied =float(input(\"the Hours Studied :\")) \n",
     "Previous_Scores = float(input(\"the Previous Scores :\"))\n",
